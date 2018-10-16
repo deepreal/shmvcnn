@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Kurum Liste</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+
+<div><h2>Toplam : 100</h2></div>
+<div>
+	
+	<table border="1" bgcolor="#CCCCCC">
+		<tr>
+        <th>ID</th>
+        <th>Üst Kategori</th>
+        <th>Kurum İsmi</th>
+        <th>Şehir</th>
+        </tr>    
+				<tr>
+        <td>4174</td>
+        <td>Birlikler</td>
+        <td>	Cumhuriyet Sulama Birliği</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4187</td>
+        <td>Birlikler</td>
+        <td>  Suluova Sol Sahil Sulama Birliği</td>
+        <td>Amasya</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4339</td>
+        <td>Birlikler</td>
+        <td> Bitlis İli, İlçeleri ve Beldeleri Katı Atık Bertaraf Tesisleri Yapma ve İşletme Birliği</td>
+        <td>Bitlis</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4185</td>
+        <td>Birlikler</td>
+        <td> D.S.İ.Yedikır Barajı Sulama Birliği</td>
+        <td>Amasya</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4176</td>
+        <td>Birlikler</td>
+        <td> Gökova Sulama Birliği</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4520</td>
+        <td>Sağlık Kuruluşları</td>
+        <td> İstanbul Okmeydanı Ağız ve Diş Sağlığı Hastanesi</td>
+        <td>İstanbul</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4177</td>
+        <td>Birlikler</td>
+        <td> Kuzey Yüreğir Sulama Birliği</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4558</td>
+        <td>Diğer Kuruluşlar</td>
+        <td> Tomurcuk Vakfı</td>
+        <td>İstanbul</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4552</td>
+        <td>Diğer Kuruluşlar</td>
+        <td> Türkiye Engelliler Vakfı</td>
+        <td>İstanbul</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4200</td>
+        <td>Birlikler</td>
+        <td> Uluabat Gölü Sulama Birliği</td>
+        <td>Bursa</td>
+        </tr>
+        
+		
+				<tr>
+        <td>1</td>
+        <td>Belediyeler</td>
+        <td>19 Mayıs Belediyesi</td>
+        <td>Samsun</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4360</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>25 Aralık Devlet Hastanesi</td>
+        <td>Gaziantep</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4074</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>29 Mayıs Devlet Hastanesi</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4631</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>75. Yıl Ağız ve Diş Sağlığı Hastanesi</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3620</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>75. Yıl Milas Devlet Hastanesi</td>
+        <td>Muğla</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3</td>
+        <td>Belediyeler</td>
+        <td>Abana Belediyesi</td>
+        <td>Kastamonu</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4</td>
+        <td>Yükseköğretim Kurumları</td>
+        <td>Abant İzzet Baysal Üniversitesi</td>
+        <td>Bolu</td>
+        </tr>
+        
+		
+				<tr>
+        <td>1869</td>
+        <td>Belediyeler</td>
+        <td>Abdipaşa Belediyesi</td>
+        <td>Bartın</td>
+        </tr>
+        
+		
+				<tr>
+        <td>5</td>
+        <td>Yükseköğretim Kurumları</td>
+        <td>Abdullah Gül Üniversitesi</td>
+        <td>Kayseri</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3145</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Abdurrahman Yurtaslan Ankara Onkoloji Eğitim ve Araştırma Hastanesi</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4541</td>
+        <td>Özel Kuruluşlar</td>
+        <td>AC Kitabevi Basın Yayın Ltd.Şti</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>6</td>
+        <td>Yükseköğretim Kurumları</td>
+        <td>Acıbadem Üniversitesi</td>
+        <td>İstanbul</td>
+        </tr>
+        
+		
+				<tr>
+        <td>7</td>
+        <td>Belediyeler</td>
+        <td>Acıgöl Belediyesi</td>
+        <td>Nevşehir</td>
+        </tr>
+        
+		
+				<tr>
+        <td>8</td>
+        <td>Belediyeler</td>
+        <td>Acıpayam Belediyesi</td>
+        <td>Denizli</td>
+        </tr>
+        
+		
+				<tr>
+        <td>9</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Acıpayam Devlet Hastanesi</td>
+        <td>Denizli</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2615</td>
+        <td>Diğer Yerel Yönetimler</td>
+        <td>Acıpayam Kent Konseyi</td>
+        <td>Denizli</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4204</td>
+        <td>Birlikler</td>
+        <td>Acıpayam Sulama Birliği</td>
+        <td>Denizli</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2903</td>
+        <td>Diğer Kuruluşlar</td>
+        <td>Acıpayam Ticaret Odası</td>
+        <td>Denizli</td>
+        </tr>
+        
+		
+				<tr>
+        <td>1640</td>
+        <td>Belediyeler</td>
+        <td>Adaklı Belediyesi</td>
+        <td>Bingöl</td>
+        </tr>
+        
+		
+				<tr>
+        <td>10</td>
+        <td>Belediyeler</td>
+        <td>Adalar Belediyesi</td>
+        <td>İstanbul</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2407</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2100</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Adlî Sicil ve İstatistik Genel Müdürlüğü</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2141</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Adlî Tıp Kurumu Başkanlığı</td>
+        <td>İstanbul</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2111</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Avrupa Birliği Genel Müdürlüğü</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2123</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Bilgi İşlem Dairesi Başkanlığı</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2084</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Ceza İşleri Genel Müdürlüğü</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2098</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Ceza ve Tevkifevleri Genel Müdürlüğü</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2119</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Eğitim Dairesi Başkanlığı</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2090</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Hukuk İşleri Genel Müdürlüğü</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2127</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı İç Denetim Birimi Başkanlığı</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2121</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı İdarî ve Malî İşler Dairesi Başkanlığı</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2128</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı İşyurtları Kurumu Daire Başkanlığı</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2104</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Kanunlar Genel Müdürlüğü</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2115</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Personel Genel Müdürlüğü</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2074</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Teftiş Kurulu Başkanlığı</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2133</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Teknik İşler Dairesi Başkanlığı</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2109</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Uluslararası Hukuk ve Dış İlişkiler Genel Müdürlüğü</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2130</td>
+        <td>Merkezi İdareler</td>
+        <td>Adalet Bakanlığı Yayın İşleri Dairesi Başkanlığı</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2905</td>
+        <td>Diğer Kuruluşlar</td>
+        <td>Adalet Büro Sendikası</td>
+        <td>Ankara</td>
+        </tr>
+        
+		
+				<tr>
+        <td>11</td>
+        <td>Yükseköğretim Kurumları</td>
+        <td>Adana Bilim ve Teknoloji Üniversitesi</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>13</td>
+        <td>Belediyeler</td>
+        <td>Adana Büyükşehir Belediyesi</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4479</td>
+        <td>Merkezi İdareler</td>
+        <td>Adana Çevre ve Şehircilik İl Müdürlüğü</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3486</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adana Devlet Hastanesi</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4347</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adana Dr. Turgut Noyan Uygulama ve Araştırma Merkezi</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4345</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adana Dr.Ekrem TOK Ruh Sağlığı ve Hastalıkları Hastanesi</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4056</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adana Fatma Kemal Timuçin Ağız ve Diş Sağlığı Hastanesi</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3194</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adana Halk Sağlığı Müdürlüğü</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3117</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adana İl Sağlık Müdürlüğü</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>15</td>
+        <td>Belediye İştirakleri</td>
+        <td>Adana İmar A.Ş.</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3513</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adana Kadın Doğum ve Çocuk Hastalıkları Hastanesi</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3163</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adana Kamu Hastaneleri Birliği Genel Sekreterliği</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2469</td>
+        <td>Diğer Yerel Yönetimler</td>
+        <td>Adana Kent Konseyi</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3471</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adana Numune Eğitim ve Araştırma Hastanesi</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3084</td>
+        <td>Diğer Kuruluşlar</td>
+        <td>Adana Sanayi Odası</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>16</td>
+        <td>Belediyeler</td>
+        <td>Adana Su ve Kanalizasyon İdaresi Genel Müdürlüğü (Aski)</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3097</td>
+        <td>Diğer Kuruluşlar</td>
+        <td>Adana Ticaret Borsası</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2906</td>
+        <td>Diğer Kuruluşlar</td>
+        <td>Adana Ticaret Odası</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>17</td>
+        <td>Belediye İştirakleri</td>
+        <td>Adana Ulaşım A.ş</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>18</td>
+        <td>Merkezi İdareler</td>
+        <td>Adana Yatırım İzleme ve Koordinasyon Merkezi</td>
+        <td>Adana</td>
+        </tr>
+        
+		
+				<tr>
+        <td>19</td>
+        <td>Belediyeler</td>
+        <td>Adapazarı Belediyesi</td>
+        <td>Sakarya</td>
+        </tr>
+        
+		
+				<tr>
+        <td>25</td>
+        <td>Belediyeler</td>
+        <td>Adil Cevaz Belediyesi</td>
+        <td>Bitlis</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4136</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adilcevaz Onkoloji Hastanesi</td>
+        <td>Bitlis</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3526</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adıyaman Ağız ve Diş Sağlığı Merkezi</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>1764</td>
+        <td>Belediyeler</td>
+        <td>Adıyaman Akıncılar Belediyesi</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>20</td>
+        <td>Belediyeler</td>
+        <td>Adıyaman Belediyesi</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4600</td>
+        <td>Merkezi İdareler</td>
+        <td>Adıyaman Çevre ve Şehircilik İl Müdürlüğü</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2441</td>
+        <td>Belediyeler</td>
+        <td>Adıyaman Gölbaşı Belediyesi</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4399</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adıyaman Halk Sağlığı Müdürlüğü</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>21</td>
+        <td>Özel İdareler</td>
+        <td>Adıyaman İl Özel İdaresi</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4597</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adıyaman İl Sağlık Müdürlüğü</td>
+        <td></td>
+        </tr>
+        
+		
+				<tr>
+        <td>4612</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adıyaman Kadın Doğum Ve Çocuk Hastalıkları Hastanesi</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>22</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adıyaman Kamu Hastaneleri Birliği Genel Sekreterliği</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2470</td>
+        <td>Diğer Yerel Yönetimler</td>
+        <td>Adıyaman Kent Konseyi</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4599</td>
+        <td>Birlikler</td>
+        <td>Adıyaman Köylere Hizmet Götürme Birliği</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>1759</td>
+        <td>Belediyeler</td>
+        <td>Adıyaman Pınarbaşı Belediyesi</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3098</td>
+        <td>Diğer Kuruluşlar</td>
+        <td>Adıyaman Ticaret Borsası</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2530</td>
+        <td>Diğer Kuruluşlar</td>
+        <td>Adıyaman Ticaret ve Sanayi Odası</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>23</td>
+        <td>Yükseköğretim Kurumları</td>
+        <td>Adıyaman Üniversitesi</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4057</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adıyaman Üniversitesi Eğitim ve Araştırma Hastanesi</td>
+        <td>Adıyaman</td>
+        </tr>
+        
+		
+				<tr>
+        <td>26</td>
+        <td>Yükseköğretim Kurumları</td>
+        <td>Adnan Menderes Üniversitesi</td>
+        <td>Aydın</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4560</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Adnan Menderes Üniversitesi Uygulama ve Araştırma Hastanesi</td>
+        <td>Aydın</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3760</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>AEÜ Kırşehir Eğitim Ve Araştırma Hastanesi</td>
+        <td>Kırşehir</td>
+        </tr>
+        
+		
+				<tr>
+        <td>27</td>
+        <td>Belediyeler</td>
+        <td>Afşin Belediyesi</td>
+        <td>Kahramanmaraş</td>
+        </tr>
+        
+		
+				<tr>
+        <td>4370</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Afşin Devlet Hastanesi</td>
+        <td>Kahramanmaraş</td>
+        </tr>
+        
+		
+				<tr>
+        <td>2533</td>
+        <td>Diğer Kuruluşlar</td>
+        <td>Afşin Ticaret ve Sanayi Odası</td>
+        <td>Kahramanmaraş</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3748</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Afyon Ağız Ve Diş Sağlığı Merkezi</td>
+        <td>Afyon</td>
+        </tr>
+        
+		
+				<tr>
+        <td>1805</td>
+        <td>Belediyeler</td>
+        <td>Afyon Akören Belediyesi</td>
+        <td>Afyon</td>
+        </tr>
+        
+		
+				<tr>
+        <td>250</td>
+        <td>Belediyeler</td>
+        <td>Afyon Bayat Belediyesi</td>
+        <td>Afyon</td>
+        </tr>
+        
+		
+				<tr>
+        <td>28</td>
+        <td>Belediyeler</td>
+        <td>Afyon Belediyesi</td>
+        <td>Afyon</td>
+        </tr>
+        
+		
+				<tr>
+        <td>3539</td>
+        <td>Sağlık Kuruluşları</td>
+        <td>Afyon Devlet Hastanesi</td>
+        <td>Afyon</td>
+        </tr>
+        
+		
+			</table>
+	
+</div>
+
+
+</body>
+</html>

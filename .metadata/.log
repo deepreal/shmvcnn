@@ -1,0 +1,439 @@
+!SESSION 2018-01-09 04:21:53.372 -----------------------------------------------
+eclipse.buildId=3.6.0.201407100658
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\wamp\www\shframeworknn
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-01-09 04:21:57.486
+!MESSAGE Connection to http://download.aptana.com/studio3-rcp/plugin/update/p2.index failed on download.aptana.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.aptana.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1074)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:621)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:735)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:657)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:150)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:128)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:72)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-01-09 04:21:57.740
+!MESSAGE Unknown Host: http://download.aptana.com/studio3-rcp/plugin/update/content.xml
+!STACK 0
+java.net.UnknownHostException: download.aptana.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.416
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+SHİFT+V to an Eclipse key sequence in Validate Syntax (ERB): C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\check_erb_syntax.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.417
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+SHİFT+V to an Eclipse key sequence in Validate Syntax: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\check_ruby_syntax.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.418
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.419
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+RETURN to an Eclipse key sequence in New Method: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\new_method.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.419
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert COMMAND+SHİFT+CONTROL+O to an Eclipse key sequence in Omit: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\omit_from_rdoc.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.420
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+M1+D to an Eclipse key sequence in Open require: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\open_require.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.422
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.426
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+SHİFT+V to an Eclipse key sequence in Validate Syntax (ERB): C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\check_erb_syntax.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.427
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+SHİFT+V to an Eclipse key sequence in Validate Syntax: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\check_ruby_syntax.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.427
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.428
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+RETURN to an Eclipse key sequence in New Method: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\new_method.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.429
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert COMMAND+SHİFT+CONTROL+O to an Eclipse key sequence in Omit: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\omit_from_rdoc.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.430
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+M1+D to an Eclipse key sequence in Open require: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\open_require.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:21:58.431
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:22:35.782
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:22:35.784
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:22:35.998
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:22:36.000
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:22:36.653
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:22:36.656
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:23:00.718
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:23:00.720
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:23:01.968
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:23:01.970
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:23:16.893
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-01-09 04:23:16.895
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-01-09 04:23:30.614
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+!SESSION 2018-02-28 03:24:08.888 -----------------------------------------------
+eclipse.buildId=3.6.0.201407100658
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-02-28 03:24:18.004
+!MESSAGE Connection to http://download.aptana.com/studio3-rcp/plugin/update/p2.index failed on download.aptana.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.aptana.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1074)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:621)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:735)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:657)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:150)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:128)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:72)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-02-28 03:24:18.251
+!MESSAGE Unknown Host: http://download.aptana.com/studio3-rcp/plugin/update/content.xml
+!STACK 0
+java.net.UnknownHostException: download.aptana.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:24:18.652
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+SHİFT+V to an Eclipse key sequence in Validate Syntax (ERB): C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\check_erb_syntax.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:24:18.654
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+SHİFT+V to an Eclipse key sequence in Validate Syntax: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\check_ruby_syntax.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:24:18.656
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:24:18.657
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+RETURN to an Eclipse key sequence in New Method: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\new_method.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:24:18.658
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert COMMAND+SHİFT+CONTROL+O to an Eclipse key sequence in Omit: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\omit_from_rdoc.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:24:18.660
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+M1+D to an Eclipse key sequence in Open require: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\open_require.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:24:18.662
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:25:25.228
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:25:25.230
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:25:25.342
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:25:25.343
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:25:52.481
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:25:52.483
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:25:55.248
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:25:55.250
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:26:14.029
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:26:14.030
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:26:14.348
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:26:14.349
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:26:14.878
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-02-28 03:26:14.880
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting 4 0 2018-02-28 03:26:55.545
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  An error occurred while parsing scope 'ansi.whıte' : Cannot recover from the syntax error
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-02-28 03:28:58.226
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+!SESSION 2018-05-30 02:53:19.731 -----------------------------------------------
+eclipse.buildId=3.6.0.201407100658
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.349
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+SHİFT+V to an Eclipse key sequence in Validate Syntax (ERB): C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\check_erb_syntax.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.352
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+SHİFT+V to an Eclipse key sequence in Validate Syntax: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\check_ruby_syntax.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.353
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.354
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+RETURN to an Eclipse key sequence in New Method: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\new_method.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.355
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert COMMAND+SHİFT+CONTROL+O to an Eclipse key sequence in Omit: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\omit_from_rdoc.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.356
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+M1+D to an Eclipse key sequence in Open require: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\open_require.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.358
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.365
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+SHİFT+V to an Eclipse key sequence in Validate Syntax (ERB): C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\check_erb_syntax.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.366
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+SHİFT+V to an Eclipse key sequence in Validate Syntax: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\check_ruby_syntax.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.367
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+CONTROL+E to an Eclipse key sequence in Execute Line / Selection as Ruby: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\execute_line_with_ruby.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.368
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+RETURN to an Eclipse key sequence in New Method: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\new_method.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.369
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert COMMAND+SHİFT+CONTROL+O to an Eclipse key sequence in Omit: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\omit_from_rdoc.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.370
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert SHİFT+M1+D to an Eclipse key sequence in Open require: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\356\1\.cp\bundles\ruby.ruble\commands\open_require.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: SHİFT
+
+!ENTRY com.aptana.scripting.ui 4 0 2018-05-30 02:53:38.371
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Unable to convert CONTROL+OPTİON+DELETE to an Eclipse key sequence in Forward Delete All Whitespace: C:\Users\suleyman\AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\360\1\.cp\bundles\html.ruble\commands\delete_whitespace_between_tags.rb
+  Cannot create key stroke with duplicate or non-existent modifier key: OPTİON
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-05-30 02:53:39.313
+!MESSAGE Connection to http://download.aptana.com/studio3-rcp/plugin/update/p2.index failed on download.aptana.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.aptana.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1074)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:621)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:735)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:657)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:150)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:128)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:72)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-05-30 02:53:39.569
+!MESSAGE Unknown Host: http://download.aptana.com/studio3-rcp/plugin/update/content.xml
+!STACK 0
+java.net.UnknownHostException: download.aptana.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-05-30 03:44:30.484
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
